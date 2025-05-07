@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp">
+
+    <!-- Кнопка настроек (стандартная) -->
+    <ImageButton
+        android:id="@id/exo_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exo_ic_settings"
+        android:contentDescription="Settings"
+        android:background="?android:attr/actionBarItemBackground" />
+
+    <!-- Кнопка "i" для информации -->
+    <ImageButton
+        android:id="@+id/exo_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info"
+        android:contentDescription="Info"
+        android:background="?android:attr/actionBarItemBackground"
+        android:layout_marginStart="8dp" />
+</LinearLayout>
