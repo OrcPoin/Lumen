@@ -1,5 +1,10 @@
 # Люмен - Android Booru Viewer
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Android](https://img.shields.io/badge/Android-6.0%2B-brightgreen.svg)](https://developer.android.com/about/versions/marshmallow)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.5.31%2B-purple.svg)](https://kotlinlang.org/)
+[![Gradle](https://img.shields.io/badge/Gradle-7.0.2%2B-orange.svg)](https://gradle.org/)
+
 Люмен - это современный Android-клиент для просмотра изображений с различных Booru-сайтов, Reddit и других источников. Приложение предоставляет удобный интерфейс для просмотра, поиска и управления изображениями.
 
 ## Особенности
@@ -77,6 +82,7 @@ dependencies {
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/yourusername/lumen.git
+cd lumen
 ```
 
 2. Откройте проект в Android Studio
@@ -86,6 +92,33 @@ git clone https://github.com/yourusername/lumen.git
 4. Подключите Android-устройство или запустите эмулятор
 
 5. Нажмите "Run" (зеленый треугольник) или используйте сочетание клавиш Shift+F10
+
+## Вклад в проект
+
+Мы приветствуем вклад в развитие проекта! Если вы хотите внести свой вклад, пожалуйста, ознакомьтесь с нашими [правилами для контрибьюторов](CONTRIBUTING.md).
+
+### Как внести свой вклад
+
+1. Форкните репозиторий
+2. Создайте ветку для ваших изменений (`git checkout -b feature/amazing-feature`)
+3. Зафиксируйте ваши изменения (`git commit -m 'Add some amazing feature'`)
+4. Отправьте изменения в ваш форк (`git push origin feature/amazing-feature`)
+5. Создайте Pull Request
+
+### Отчеты об ошибках
+
+Если вы обнаружили ошибку, пожалуйста, создайте issue в репозитории проекта. При создании issue, пожалуйста, укажите:
+- Описание проблемы
+- Шаги для воспроизведения
+- Ожидаемое поведение
+- Фактическое поведение
+- Скриншоты (если применимо)
+- Версия приложения
+- Версия Android
+
+## Журнал изменений
+
+Все значимые изменения в проекте будут документироваться в [CHANGELOG.md](CHANGELOG.md).
 
 ## Использование
 
